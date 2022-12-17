@@ -718,7 +718,7 @@ body {
     }
 }
 
-@media (max-width: 769px)
+@media (max-width: 801px)
 {
     .container {
         margin: 20px;
