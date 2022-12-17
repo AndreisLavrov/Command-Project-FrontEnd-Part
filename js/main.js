@@ -46,6 +46,7 @@ $(function() {
 	$(".btn_round").on("click", function() {
 	  copyToClipboard("#widget_code");
 	});
+
   });
 
 /* Nav Icon */ 
