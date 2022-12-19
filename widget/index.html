@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>widget</title>
     <link rel="stylesheet" href="./css_widget/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="block widget">
         <div class="block widget_row">
             <div class="block widget_image_block">
                 <div class="widget_image">
-                    <img src="https://test.ecom.raiffeisen.ru/api/sbp/v1/qr/AS00CB2C78714C6595CA161A70C0DA71/image" alt="QR">
+                    <img id="widget" src="https://test.ecom.raiffeisen.ru/api/sbp/v1/qr/ADC2BB6468604F1E854690448314DA3A/image" alt="QR">
                 </div>
+                <button class="subscribe" id="changeQR">Subscribe</button>
             </div>
             <div class="block widget_main_block">
                 <h1 class="widget_title">Scan the <br> QR-code <br> to pay</h1>
@@ -22,5 +25,12 @@
         </div>
 
     </div>
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./js_widget/main.js"></script>
 </body>
 </html>

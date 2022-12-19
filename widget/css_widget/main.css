@@ -56,6 +56,25 @@ element.style {
     align-items: center;
 }
 
+.subscribe {
+    display: block;
+    margin: -30px 23px 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #FF5E49;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscribe:active {
+    position: relative;
+    top: 1px;
+}
+
 .widget_main_block {
     width: 210px;
     display: flex;
@@ -100,4 +119,9 @@ element.style {
     cursor: pointer;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.widget_button:active {
+    position: relative;
+    top: 1px;
 }
